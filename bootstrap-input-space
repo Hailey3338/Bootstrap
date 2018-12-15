@@ -1,0 +1,40 @@
+padding-left: 30px; move a little to right side
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <title>Index</title>
+</head>
+<body>
+    <div class="form-row">
+            <div id="auftrageber" class="col-sm-2" style="padding-left: 100px;">
+                <div style="font-size: 10px; text-align: left; font-style: italic;">Auftrageber</div>
+                <input class="form-control" style="font-size: 10px;" id="AwsDataFormCustomer">
+            </div>
+            <div  style="padding: 0;"><div>&nbsp;</div><div>&minus;</div></div>
+            <div id="nr" class="col-sm-2" style="padding-left: 0px;">
+                <div style="font-size: 10px; text-align: left; font-style: italic;">lfd. Nr.</div>
+                <input class="form-control" id="AwsDataFormAwsNr">
+            </div>
+            <div  style="padding-left: 0px;"><div>&nbsp;</div><div>&minus;</div></div>
+            <div id="year" class="col-sm-2" style="padding-left: 0px;">
+                <div style="font-size: 10px; text-align: left; font-style: italic;">Jahr</div>
+                <input class="form-control" id="AwsDataFormAwsYear">
+            </div>
+            <div  style="padding-left: 0px;"><div>&nbsp;</div><div>&minus;</div></div>
+            <div id="version" class="col-sm-3" style="padding-left: 0px;">
+                <div style="font-size: 10px; text-align: left; padding-right:40%; font-style: italic;">Ext. Vers.</div>
+                <input class="form-control" id="AwsDataFormExternalVersion">
+            </div>
+       
+    </div>
+</body>
+</html>
