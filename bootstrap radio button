@@ -1,0 +1,20 @@
+<input type="radio" name="options" id="option1" autocomplete="off" checked onclick="myFunction()"> Type1
+<input type="radio" name="options" id="option2" autocomplete="off" onclick="myFunction()"> Type2
+<input type="radio" name="options" id="option3" autocomplete="off" onclick="myFunction()"> Type3
+<p id="kerber">Kerber was born in Bremen</p>
+
+
+
+function myFunction() {
+    var x = document.getElementById("kerber");
+    if ($("#option1").prop("checked") == true) {
+
+        x.style.display = "block";
+    }
+    else if ($("#option2").prop("checked") == true){
+        x.style.display = "none";
+    }
+    else if ($("#option3").prop("checked") == true) {
+        x.style.display = "none";
+    }
+}
